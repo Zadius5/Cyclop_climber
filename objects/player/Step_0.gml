@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //show_debug_message(state)
 //show_debug_message(y_speed)
-show_debug_message(control)
+//show_debug_message(control)
 if(stun){
 	apply_stun()
 }
