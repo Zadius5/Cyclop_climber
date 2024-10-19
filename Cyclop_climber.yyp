@@ -34,12 +34,13 @@
   },
   "name":"Cyclop_climber",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"player","path":"objects/player/player.yy",},},
+    {"id":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
