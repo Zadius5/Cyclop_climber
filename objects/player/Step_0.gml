@@ -1,16 +1,51 @@
 /// @description Insert description here
 // You can write your code in this editor
+show_debug_message(state)
+//show_debug_message(y_speed)
 
-apply_gravity()
-if(state != "stun"){
-	if(check_climb()){
-		climb()
-	}
-	if(state == "climb"){
-		gravity = 0
-	}
-	if(state == "walk"){
-		walk()	
-	}
-	jump()
+switch(state){
+	case "walk":
+		if check_climb(){
+			climb()
+		}
+		if state == "walk"{
+			move_h()
+			x += x_speed
+			x_speed = 0
+			jump()
+		}
+	break;
+	case "climb":
+		if check_climb(){
+			climb()
+		}
+		else{
+			check_ground()
+		}
+		if state == "climb"{
+			move_h()
+			if !place_meeting(x+x_speed,y+y_speed,platform_block) && !place_meeting(x+2*x_speed,y+2*y_speed,climb_boundary){
+				y += y_speed
+				x += x_speed
+			}
+			x_speed = 0
+			y_speed = 0
+			jump()
+		}
+	break;
+	case "air":
+		if check_climb(){
+			climb()
+		}
+		
+		if state == "air"{
+			move_h()
+			apply_gravity()
+			x += x_speed
+			x_speed = 0
+			y += y_speed
+			check_ground()
+		}
+	break;
 }
+

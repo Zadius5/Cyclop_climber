@@ -35,12 +35,14 @@
   "name":"Cyclop_climber",
   "resources":[
     {"id":{"name":"camera","path":"objects/camera/camera.yy",},},
+    {"id":{"name":"climb_boundary","path":"objects/climb_boundary/climb_boundary.yy",},},
     {"id":{"name":"climb_object","path":"objects/climb_object/climb_object.yy",},},
     {"id":{"name":"platform_block","path":"objects/platform_block/platform_block.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
     {"id":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"c_boundary_sprite","path":"sprites/c_boundary_sprite/c_boundary_sprite.yy",},},
     {"id":{"name":"climb_sprite","path":"sprites/climb_sprite/climb_sprite.yy",},},
     {"id":{"name":"collision_sprite","path":"sprites/collision_sprite/collision_sprite.yy",},},
     {"id":{"name":"Placeholder_sprite","path":"sprites/Placeholder_sprite/Placeholder_sprite.yy",},},
@@ -49,8 +51,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
     {"roomId":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

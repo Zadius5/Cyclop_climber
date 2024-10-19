@@ -14,49 +14,57 @@ movement = 10
 walking = true
 climbing = false
 stun = false
+gravity_f = 1
+x_speed = 0
+y_speed = 0
 //Animation list
 face = LEFT
 delay = 0.5
-
 awalk[RIGHT] = noone
 awalk[LEFT] = noone
 aclimb = noone
+max_fall = 10
 //all platforming actions of player
-function walk() {
+function move_h() {
 	if(keyboard_check(ord("D"))){
 		face = RIGHT
-		hspeed = movement
+		x_speed = movement
 	}
 	else if(keyboard_check(ord("A"))){
 		face = LEFT
-		hspeed = -movement
+		x_speed = -movement
 	}
 }
 function jump() {
 	if(state != "air" && keyboard_check(vk_space)){
 	state = "air"
-	vspeed = 20
+	y_speed = -15
 	}
 }
 function climb(){
 	if(keyboard_check(ord("W"))){
 		face = RIGHT
-		vspeed = -movement
+		y_speed = -movement
 		state = "climb"
 	}
 	else if(keyboard_check(ord("S"))){
 		face = LEFT
-		vspeed = movement
+		y_speed = movement
 		state = "climb"
 	}
 }
-function apply_gravity(){
-	if !place_meeting(x,y+movement,platform_block){
-		gravity = 0.01
+function check_ground(){
+	if !place_meeting(x+x_speed,y+y_speed,platform_block) {
+		gravity_f = 1
+		state = "air"
 	}
 	else{
 		state = "walk"
-		gravity = 0
+	}
+}
+function apply_gravity(){
+	if (y_speed < max_fall){
+	y_speed += gravity_f
 	}
 }
 function check_climb(){
