@@ -14,6 +14,8 @@ movement = 10
 walking = true
 climbing = false
 stun = false
+control = true
+knockback = false
 gravity_f = 1
 x_speed = 0
 y_speed = 0
@@ -26,6 +28,7 @@ aclimb = noone
 max_fall = 10
 //all platforming actions of player
 function move_h() {
+	if(control){
 	if(keyboard_check(ord("D"))){
 		face = RIGHT
 		x_speed = movement
@@ -34,14 +37,18 @@ function move_h() {
 		face = LEFT
 		x_speed = -movement
 	}
+	}
 }
 function jump() {
+	if(control){
 	if(state != "air" && keyboard_check(vk_space)){
 	state = "air"
 	y_speed = -15
 	}
+	}
 }
 function climb(){
+	if(control){
 	if(keyboard_check(ord("W"))){
 		face = RIGHT
 		y_speed = -movement
@@ -51,6 +58,7 @@ function climb(){
 		face = LEFT
 		y_speed = movement
 		state = "climb"
+	}
 	}
 }
 function check_ground(){
@@ -69,4 +77,31 @@ function apply_gravity(){
 }
 function check_climb(){
 	return (place_meeting(x,y,climb_object))
+}
+function apply_stun(){
+	stun = false
+	control = false
+	knockback = true
+	switch(state){
+		case "walk": 
+		if face == RIGHT{
+			x_speed = -10
+		}
+		else{
+			x_speed = 10
+		}
+		break
+		case "climb":
+		state = "air"
+		break
+		case "air":
+		if face == RIGHT{
+			x_speed = -10
+		}
+		else{
+			x_speed = 10
+		}
+		break
+	}
+	alarm[0] = 0.25 * 60
 }

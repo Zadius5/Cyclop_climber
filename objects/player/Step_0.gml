@@ -1,17 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_message(state)
+//show_debug_message(state)
 //show_debug_message(y_speed)
-
+show_debug_message(control)
+if(stun){
+	apply_stun()
+}
 switch(state){
 	case "walk":
 		if check_climb(){
 			climb()
 		}
+		check_ground()
 		if state == "walk"{
 			move_h()
 			x += x_speed
+			if(!knockback){
 			x_speed = 0
+			}
 			jump()
 		}
 	break;
@@ -28,6 +34,7 @@ switch(state){
 				y += y_speed
 				x += x_speed
 			}
+			
 			x_speed = 0
 			y_speed = 0
 			jump()
@@ -42,7 +49,9 @@ switch(state){
 			move_h()
 			apply_gravity()
 			x += x_speed
+			if(!knockback){
 			x_speed = 0
+			}
 			y += y_speed
 			check_ground()
 		}
