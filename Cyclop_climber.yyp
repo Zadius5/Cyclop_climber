@@ -34,9 +34,11 @@
   },
   "name":"Cyclop_climber",
   "resources":[
+    {"id":{"name":"camera","path":"objects/camera/camera.yy",},},
     {"id":{"name":"climb_object","path":"objects/climb_object/climb_object.yy",},},
     {"id":{"name":"platform_block","path":"objects/platform_block/platform_block.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"climb_sprite","path":"sprites/climb_sprite/climb_sprite.yy",},},
@@ -48,6 +50,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
