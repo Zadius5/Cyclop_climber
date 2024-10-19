@@ -34,7 +34,6 @@ switch(state){
 				y += y_speed
 				x += x_speed
 			}
-			
 			x_speed = 0
 			y_speed = 0
 			jump()
@@ -44,7 +43,6 @@ switch(state){
 		if check_climb(){
 			climb()
 		}
-		
 		if state == "air"{
 			move_h()
 			apply_gravity()

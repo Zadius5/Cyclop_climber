@@ -17,6 +17,7 @@ stun = false
 control = true
 knockback = false
 gravity_f = 1
+jump_cd = false
 x_speed = 0
 y_speed = 0
 //Animation list
@@ -41,9 +42,13 @@ function move_h() {
 }
 function jump() {
 	if(control){
+	if(!jump_cd){
 	if(state != "air" && keyboard_check(vk_space)){
 	state = "air"
 	y_speed = -15
+	jump_cd = true
+	alarm[2] = 30
+	}
 	}
 	}
 }

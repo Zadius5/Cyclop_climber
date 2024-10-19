@@ -13,7 +13,7 @@ moved += x_speed
 moved += y_speed
 }
 if moved >= max_dis || moved <= -max_dis{
-	show_debug_message("switch")
+	//show_debug_message("switch")
 	dir *= -1
 	moved = 0
 	stop = true
