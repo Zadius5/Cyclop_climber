@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"climb_sprite",
+    "path":"sprites/climb_sprite/climb_sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

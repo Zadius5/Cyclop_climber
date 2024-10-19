@@ -39,6 +39,8 @@
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"climb_sprite","path":"sprites/climb_sprite/climb_sprite.yy",},},
+    {"id":{"name":"collision_sprite","path":"sprites/collision_sprite/collision_sprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
