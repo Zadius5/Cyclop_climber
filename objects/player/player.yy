@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Placeholder_sprite2",
+    "path":"sprites/Placeholder_sprite2/Placeholder_sprite2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

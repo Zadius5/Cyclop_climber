@@ -41,6 +41,8 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"climb_sprite","path":"sprites/climb_sprite/climb_sprite.yy",},},
     {"id":{"name":"collision_sprite","path":"sprites/collision_sprite/collision_sprite.yy",},},
+    {"id":{"name":"Placeholder_sprite","path":"sprites/Placeholder_sprite/Placeholder_sprite.yy",},},
+    {"id":{"name":"Placeholder_sprite2","path":"sprites/Placeholder_sprite2/Placeholder_sprite2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

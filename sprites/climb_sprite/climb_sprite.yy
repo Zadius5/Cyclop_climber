@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"climb_sprite",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":24,
   "bbox_left":0,
-  "bbox_right":31,
+  "bbox_right":24,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":25,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b643188c-82c0-4ed5-a8e4-159194c1f827","blendMode":0,"displayName":"default","isLocked":false,"name":"b643188c-82c0-4ed5-a8e4-159194c1f827","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":25,
 }
