@@ -34,8 +34,11 @@
   },
   "name":"Cyclop_climber",
   "resources":[
+    {"id":{"name":"climb_object","path":"objects/climb_object/climb_object.yy",},},
+    {"id":{"name":"platform_block","path":"objects/platform_block/platform_block.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"the_giant","path":"rooms/the_giant/the_giant.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
