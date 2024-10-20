@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"Drums_Only",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Drums",
+    "path":"audiogroups/Drums",
   },
   "bitDepth":1,
   "bitRate":128,

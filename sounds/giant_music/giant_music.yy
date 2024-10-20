@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"giant_music",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Drums1",
+    "path":"audiogroups/Drums1",
   },
   "bitDepth":1,
   "bitRate":128,
