@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-//show_debug_message(state)
+show_debug_message(state)
 //show_debug_message(y_speed)
 //show_debug_message(control)
 if(stun){
 	apply_stun()
 }
-show_debug_message(x_speed)
+//show_debug_message(x_speed)
 switch(state){
 	case "walk":
 		if check_climb(){
@@ -48,6 +48,9 @@ switch(state){
 			move_h()
 			apply_gravity()
 			x += x_speed
+			if place_meeting(x+x_speed,y+y_speed,platform_block){
+			y_speed = 0
+			}
 			if(!knockback && !shakes){
 			x_speed = 0
 			}

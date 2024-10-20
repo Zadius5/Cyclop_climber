@@ -68,13 +68,12 @@ function climb(){
 	}
 }
 function check_ground(){
-	if !place_meeting(x+x_speed,y+y_speed,platform_block) {
-		gravity_f = 1
-		state = "air"
-	}
-	else{
+	if place_meeting(x+x_speed,y+y_speed,platform_block) && y_speed > 0{
 		state = "walk"
 		shakes = false
+	}
+	else{
+		state = "air"
 	}
 }
 function apply_gravity(){
