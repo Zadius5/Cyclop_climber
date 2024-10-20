@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_message(state)
+//show_debug_message(state)
 //show_debug_message(y_speed)
 //show_debug_message(control)
 if(stun){
@@ -16,7 +16,7 @@ switch(state){
 		if state == "walk"{
 			move_h()
 			x += x_speed
-			if(!knockback && !shakes){
+			if(!knockback ){
 			x_speed = 0
 			}
 			jump()
@@ -51,7 +51,7 @@ switch(state){
 			if place_meeting(x+x_speed,y+y_speed,platform_block){
 			y_speed = 0
 			}
-			if(!knockback && !shakes){
+			if(!knockback ){
 			x_speed = 0
 			}
 			y += y_speed
