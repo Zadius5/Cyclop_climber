@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(alive){
-if (player.y < 4000) && player.y > 3000{
-steping()
-}
-alarm[0] = 5 * 60
+
+if (press){
+	image_alpha = lerp(image_alpha,0,0.05)
 }

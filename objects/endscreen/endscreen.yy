@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"eye_of_beast",
+  "%Name":"endscreen",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"player","path":"objects/player/player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"eye_of_beast",
+  "name":"endscreen",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"eye_hitbox",
-    "path":"sprites/eye_hitbox/eye_hitbox.yy",
+    "name":"You_re_winner",
+    "path":"sprites/You_re_winner/You_re_winner.yy",
   },
   "spriteMaskId":null,
   "visible":true,

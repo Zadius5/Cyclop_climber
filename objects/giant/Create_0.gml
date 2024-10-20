@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 shake_dir = 1
-
+alive = true
 function steping(){
 	player.y_speed -= 25
 	player.state = "air"
