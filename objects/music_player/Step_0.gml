@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-while (obj_player.y >= 6666) {
-	audio_sound_gain(snd_drums_only, 10, 0);
+if (player.y >= 6666) {
+	audio_sound_gain(Drums_Only, 1, 100);
 }
 
-while (obj_player.y >= 5230) {
-	audio_sound_gain(snd_orchestra_only, 10, 0);
+if (player.y >= 5230) {
+	audio_sound_gain(Orchestra_Only, 1, 100);
 }
 
-while (obj_player.y >= 2850) {
-	audio_sound_gain(snd_xylophone_only, 10, 0);
+if (player.y >= 2850) {
+	audio_sound_gain(Xylophone_Only, 1, 100);
 }

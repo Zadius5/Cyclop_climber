@@ -1,1 +1,1 @@
-audio_play_sound(giant_music,0,true)
+//audio_play_sound(giant_music,0,true)
