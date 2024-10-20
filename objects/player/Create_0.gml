@@ -29,20 +29,26 @@ awalk[RIGHT] = noone
 awalk[LEFT] = noone
 aclimb = noone
 max_fall = 10
+push = 10
+push_dir = 1
 //all platforming actions of player
 function move_h() {
 	if(control){
 	if(keyboard_check(ord("D"))){
 		face = RIGHT
+		face = LEFT
 		x_speed = movement
 	}
 	else if(keyboard_check(ord("A"))){
 		face = LEFT
 		x_speed = -movement
-	}
+		}
 	}
 	if(place_meeting(x+x_speed,y,platform_block)){
 		x_speed = 0
+	}
+	if shakes{
+		x_speed += push * push_dir
 	}
 }
 function jump() {
@@ -114,6 +120,6 @@ function apply_stun(){
 		break
 	}
 	alarm[0] = 0.25 * 60
-	alarm[3] = 0.5 * 60
+	alarm[3] = 1 * 60
 	}
 }
