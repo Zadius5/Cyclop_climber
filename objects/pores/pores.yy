@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pore_sprite",
-    "path":"sprites/pore_sprite/pore_sprite.yy",
+    "name":"Shooter_thign",
+    "path":"sprites/Shooter_thign/Shooter_thign.yy",
   },
   "spriteMaskId":null,
   "visible":true,
