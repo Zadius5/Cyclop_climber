@@ -6,5 +6,5 @@ moved = 0
 x_speed = 0
 y_speed = 0
 set_speed = 5
-dir = 1
+dir = mov_dir
 stop = false

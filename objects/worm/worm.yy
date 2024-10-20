@@ -31,13 +31,14 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"mov_v","filters":[],"listItems":[],"multiselect":false,"name":"mov_v","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"max_dis","filters":[],"listItems":[],"multiselect":false,"name":"max_dis","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"200","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"mov_dir","filters":[],"listItems":[],"multiselect":false,"name":"mov_dir","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"worm_sprite",
-    "path":"sprites/worm_sprite/worm_sprite.yy",
+    "name":"worm_the_sequel",
+    "path":"sprites/worm_the_sequel/worm_the_sequel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
