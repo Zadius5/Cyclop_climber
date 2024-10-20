@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-control =  true
-knockback = false
+
+shake()
+alarm[1] = 60 *5

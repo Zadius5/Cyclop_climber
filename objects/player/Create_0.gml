@@ -10,7 +10,7 @@ key_left = 0
 state = "walk"
 walk_speed = 0
 climb_speed = 0
-movement = 10
+movement = 6
 walking = true
 climbing = false
 stun = false
@@ -20,6 +20,7 @@ gravity_f = 1
 jump_cd = false
 x_speed = 0
 y_speed = 0
+shakes = false
 //Animation list
 face = LEFT
 delay = 0.5
@@ -39,16 +40,15 @@ function move_h() {
 		x_speed = -movement
 	}
 	}
+	if(place_meeting(x+x_speed,y,platform_block)){
+		x_speed = 0
+	}
 }
 function jump() {
 	if(control){
-	if(!jump_cd){
-	if(state != "air" && keyboard_check(vk_space)){
+	if(state != "air" && keyboard_check_pressed(vk_space)){
 	state = "air"
 	y_speed = -15
-	jump_cd = true
-	alarm[2] = 30
-	}
 	}
 	}
 }
@@ -73,6 +73,7 @@ function check_ground(){
 	}
 	else{
 		state = "walk"
+		shakes = false
 	}
 }
 function apply_gravity(){

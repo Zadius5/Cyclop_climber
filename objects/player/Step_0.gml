@@ -6,6 +6,7 @@
 if(stun){
 	apply_stun()
 }
+show_debug_message(x_speed)
 switch(state){
 	case "walk":
 		if check_climb(){
@@ -15,7 +16,7 @@ switch(state){
 		if state == "walk"{
 			move_h()
 			x += x_speed
-			if(!knockback){
+			if(!knockback && !shakes){
 			x_speed = 0
 			}
 			jump()
@@ -47,7 +48,7 @@ switch(state){
 			move_h()
 			apply_gravity()
 			x += x_speed
-			if(!knockback){
+			if(!knockback && !shakes){
 			x_speed = 0
 			}
 			y += y_speed
