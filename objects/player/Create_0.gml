@@ -21,6 +21,7 @@ jump_cd = false
 x_speed = 0
 y_speed = 0
 shakes = false
+iframe = false
 //Animation list
 face = LEFT
 delay = 0.5
@@ -86,6 +87,8 @@ function check_climb(){
 }
 function apply_stun(){
 	stun = false
+	if(!iframe){
+	iframe = true
 	control = false
 	knockback = true
 	switch(state){
@@ -99,6 +102,8 @@ function apply_stun(){
 		break
 		case "climb":
 		state = "air"
+		x_speed = 0
+		y_speed = 0
 		break
 		case "air":
 		if face == RIGHT{
@@ -110,4 +115,6 @@ function apply_stun(){
 		break
 	}
 	alarm[0] = 0.25 * 60
+	alarm[3] = 0.5 * 60
+	}
 }

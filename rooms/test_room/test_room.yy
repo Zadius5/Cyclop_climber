@@ -28,6 +28,7 @@
     {"name":"inst_2E03E3F8","path":"rooms/test_room/test_room.yy",},
     {"name":"inst_1197599B","path":"rooms/test_room/test_room.yy",},
     {"name":"inst_54A3916","path":"rooms/test_room/test_room.yy",},
+    {"name":"inst_5D9158C0","path":"rooms/test_room/test_room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -56,6 +57,7 @@
         {"$GMRInstance":"v1","%Name":"inst_2E03E3F8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E03E3F8","objectId":{"name":"climb_boundary","path":"objects/climb_boundary/climb_boundary.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":11.0,"x":650.0,"y":150.0,},
         {"$GMRInstance":"v1","%Name":"inst_1197599B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1197599B","objectId":{"name":"climb_boundary","path":"objects/climb_boundary/climb_boundary.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":600.0,"y":100.0,},
         {"$GMRInstance":"v1","%Name":"inst_54A3916","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54A3916","objectId":{"name":"platform_block","path":"objects/platform_block/platform_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":50.0,"y":625.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5D9158C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D9158C0","objectId":{"name":"eye_of_beast","path":"objects/eye_of_beast/eye_of_beast.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":250.0,"y":125.0,},
       ],"layers":[],"name":"hitboxes","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
