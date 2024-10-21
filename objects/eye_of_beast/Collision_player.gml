@@ -7,4 +7,5 @@ ended = true
 giant.alive = false
 player.control = false
 timer.over = true
+audio_play_sound(roar_sound_effect,0,false)
 }

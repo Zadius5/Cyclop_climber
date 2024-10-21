@@ -4,11 +4,13 @@
 shake_dir = 1
 alive = true
 function steping(){
+	audio_play_sound(massive_thump_116359__2_,0,false)
 	player.y_speed -= 25
 	player.state = "air"
 }
 
 function shake(){
+	audio_play_sound(massive_thump_116359__2_,0,false)
 	player.shakes = true
 	if (player.state = "walk"){
 		player.y_speed = -5

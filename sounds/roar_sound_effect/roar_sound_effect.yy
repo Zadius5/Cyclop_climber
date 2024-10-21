@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"giant_music",
+  "%Name":"roar_sound_effect",
   "audioGroupId":{
-    "name":"Drums1",
-    "path":"audiogroups/Drums1",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":160.0,
-  "name":"giant_music",
+  "duration":4.392,
+  "name":"roar_sound_effect",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"giant_music.wav",
+  "soundFile":"roar_sound_effect.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }
