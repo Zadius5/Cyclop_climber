@@ -6,4 +6,5 @@ instance_create_layer(x,y,"player_layer",bloodofthedarksoul)
 ended = true
 giant.alive = false
 player.control = false
+timer.over = true
 }

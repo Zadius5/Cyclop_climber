@@ -54,6 +54,7 @@
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"pores","path":"objects/pores/pores.yy",},},
     {"id":{"name":"rock_spawner","path":"objects/rock_spawner/rock_spawner.yy",},},
+    {"id":{"name":"timer","path":"objects/timer/timer.yy",},},
     {"id":{"name":"worm","path":"objects/worm/worm.yy",},},
     {"id":{"name":"giant_test_room","path":"rooms/giant_test_room/giant_test_room.yy",},},
     {"id":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
